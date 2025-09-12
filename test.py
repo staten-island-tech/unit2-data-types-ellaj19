@@ -9,7 +9,8 @@ print(values[6])
 answer1 = input("what's your name?")
 input("hello")
 answer4 = input("would you like to answer a quick servey? yes or no?")
-if answer4 == ("yes","ok","okay"):
+correct_answers = ["yes", "ok","sure","okay"]
+if answer4 in correct_answers:
     print("great!")
 else:
     print("too bad you don't get a choice")
@@ -21,7 +22,7 @@ else:
     print("incorrect")
 
 answer3 = input("what is the worst flavor of ice cream?")
-if answer3 == " coffee":
+if answer3 == "coffee":
     print("you little liar everyone loves coffee")
 else:
     print("spared; congratulations. you have great taste.")
