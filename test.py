@@ -19,7 +19,7 @@ answer2 = input("what's your favorite ice cream flavor?")
 if answer2 == "coffee":
     print("yes")
 else:
-    print("incorrect")
+    print("incorrect")    
 
 answer3 = input("what is the worst flavor of ice cream?")
 if answer3 == "coffee":
