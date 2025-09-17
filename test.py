@@ -39,6 +39,9 @@ answer7 = input("what's your favorite number?")
 answer8 = input("what's your favorite animal?")
 
 print(f"{answer5} was casually skipping down the streets, merry as ever on a fine {answer6}. Little did {answer5} know that they were going to get ambushed by a pack of rats. as they tried to shoo them away, {answer7} rats pounced on them and started breakdancing around her, seemingly beckoning them into their cult. Just as they thought all hope was lost, the {answer8} king appeared, summoning a gang of birds to excrete on the rats. Eventually, {answer5} left unscathed, but had ptsd from the {answer8}s and had to get therapy for their schizophrenia that made them hallucinate about becoming one witht the rats. Thus, inevitably, {answer5} now lives in the sewers and commands a rat army to pounce on other unsuspecting strangers, creating a loop of demise and terror.")
+<<<<<<< HEAD
+
+=======
  """
 def odd_or_even(x):
     if x % 2 == 0:
@@ -47,3 +50,4 @@ def odd_or_even(x):
         print("the number is odd")
         x = any
 odd_or_even(125)
+>>>>>>> fa47e8b79b92b2c627c5fb32bb637412bc1c1498
