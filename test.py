@@ -58,7 +58,7 @@ def movies():
     
 movies() """
 
-bill = int(input("how much was your bill?"))
+""" bill = int(input("how much was your bill?"))
 values = ["great","good","okay","bad","horrendous"]
 values = input("how was your meal? choose from the following: great, good, okay, bad, horrendous")
 def total():
@@ -67,9 +67,19 @@ def total():
     if values == "good":
         print(bill * 1.20)
     if values == "okay":
-        print(bill * 1.10)
+        print(bill * 1.15)
     if values == "bad":
         print(bill)
     if values == "horrendous":
         print(bill * 0.9)
-total()
+total() """
+
+factors = int(input("give me a whole number"))
+def number(x):
+    list = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            list(i)
+    return(list)
+
+print(number(factors))
