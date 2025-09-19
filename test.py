@@ -74,12 +74,32 @@ def total():
         print(bill * 0.9)
 total() """
 
-factors = int(input("give me a whole number"))
+""" factors = int(input("give me a whole number"))
 def number(x):
     list = []
     for i in range(1, x + 1):
         if x % i == 0:
-            list(i)
+            list.append(i)
     return(list)
 
 print(number(factors))
+
+gcf = int(input("give me two whole numbers, one at a time"))
+def common(x):
+    list = []
+    for i in range(1, x + 1):
+        if x % i == 0:
+            list.append(i)
+    return(list)
+def common(y):
+    list = []
+    for i in range(1, y + 1):
+        if y % i == 0:
+            list.append(i)
+    return(list)
+print(common(gcf)) """
+
+x = input("what do you want to buy (y/n)")
+while x != "n":
+    item = input("what dy want to buy")
+print("thank you for your purchase")
