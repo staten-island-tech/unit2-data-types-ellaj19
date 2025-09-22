@@ -99,7 +99,18 @@ def common(y):
     return(list)
 print(common(gcf)) """
 
-x = input("what do you want to buy (y/n)")
+""" x = input("what do you want to buy (y/n)")
 while x != "n":
     item = input("what dy want to buy")
 print("thank you for your purchase")
+ """
+
+gcf = int(input("give me one whole number"))
+gcf2 = int(input("give me another whole number"))
+def common(x,y):
+    list = []
+    for i in range(1,x):
+        if x % i == 0 and y % i == 0:
+            list.append(i)    
+    return(list)
+print(common(gcf,gcf2))
